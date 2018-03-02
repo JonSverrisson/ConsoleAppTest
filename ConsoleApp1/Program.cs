@@ -15,6 +15,7 @@ namespace ConsoleApp1
                 string json = str.ReadToEnd();
                 var items = JsonConvert.DeserializeObject<Model>(json);
 
+
                 Console.WriteLine(items);
             }
 
